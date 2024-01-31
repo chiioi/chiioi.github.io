@@ -139,7 +139,7 @@ proxies:
  # ws-opts:
  #   path: /sgrp
 
-- name: "S._.S-IN-DR"
+- name: "S._.S-IN-DR-6First"
   type: ss
   server: id.chiioi.me
   port: 443
@@ -154,7 +154,7 @@ proxies:
     path: /id
 
 
-- name: "S._.S-IN-DR6"
+- name: "S._.S-IN-DR6-6First"
   type: ss
   server: idv6.chiioi.me
   port: 443
@@ -167,7 +167,7 @@ proxies:
     tls: true
     path: /id
 
-- name: "S._.S-IN-4RP6"
+- name: "S._.S-IN-4RP6-6First"
   type: ss
   server: id46.chiioi.me
   port: 443
