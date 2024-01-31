@@ -149,6 +149,7 @@ proxies:
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
+    host: id.chiioi.me
     tls: true
     path: /id
 
