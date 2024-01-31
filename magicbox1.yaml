@@ -178,6 +178,7 @@ proxies:
   plugin-opts:
     mode: websocket
     tls: true
+    host: id46.chiioi.me
     path: /id
 
 
