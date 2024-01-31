@@ -284,10 +284,10 @@ proxy-groups:
 - name: "Remark"
   type: select
   proxies:
-    - "所有log記錄已被設置為最低等級(silent或none)"
-    - "但仍請考慮是否通過此網絡傳輸個人機密資訊"
-    - "永遠喜歡cyggwwwwww"
-    - "你可以前往config.chiioi.me查看Clash不支援的其他連接方式"
+#    - "所有log記錄已被設置為最低等級(silent或none)"
+#    - "但仍請考慮是否通過此網絡傳輸個人機密資訊"
+    - "沒愛了把cygg送給豬肉"
+#    - "你可以前往config.chiioi.me查看Clash不支援的其他連接方式"
 
 # url-test 通过指定的 URL 测试并选择延迟最低的节点
 - name: "自動選擇慢速節點嗚"
@@ -323,14 +323,12 @@ proxy-groups:
 - name: "PROXY"
   type: select
   proxies:
-    - "S._.SWannaShabuShabuRP"
-    - "S._.SMacauChinaHahaha"
-    - "S._.SSecretGarden"
-    - "S._.SSecretGardenRP"
-    - "S._.SSleepyLoMei"
-    - "S._.SSleepyLoMeiRP"
-    - "S._.SMickeyMouse"
-    - "**trojan協議似乎有被監控的風險請盡量少用"
+    - "S._.S-MO-DR-MacauChinaHahaha"
+    - "S._.S-IN-DR"
+    - "S._.S-US-RP-SleepyLoMei"
+    - "S._.S-US-DR-SleepyLoMei"
+    - "S._.S-AU-DR-MickeyMouse"
+    - "**trojan協議似乎有被監控的風險請盡量少用(但很快"
 
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
