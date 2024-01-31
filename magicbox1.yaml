@@ -354,6 +354,8 @@ proxy-groups:
   proxies:
     - "S._.S-MO-DR-MacauChinaHahaha"
     - "S._.S-IN-DR"
+    - "S._.S-IN-DR6"
+    - "S._.S-IN-4RP6"
     - "S._.S-US-RP-SleepyLoMei"
     - "S._.S-US-DR-SleepyLoMei"
     - "S._.S-AU-DR-MickeyMouse"
