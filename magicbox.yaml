@@ -139,7 +139,7 @@ proxies:
  # ws-opts:
  #   path: /sgrp
 
-- name: "S._.S-IN-DR"
+- name: "S._.S-IN-DR-6First"
   type: ss
   server: id.chiioi.me
   port: 443
@@ -149,10 +149,12 @@ proxies:
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
+    host: id.chiioi.me
     tls: true
     path: /id
 
-- name: "S._.S-IN-DR6"
+
+- name: "S._.S-IN-DR6-6First"
   type: ss
   server: idv6.chiioi.me
   port: 443
@@ -165,7 +167,7 @@ proxies:
     tls: true
     path: /id
 
-- name: "S._.S-IN-4RP6"
+- name: "S._.S-IN-4RP6-6First"
   type: ss
   server: id46.chiioi.me
   port: 443
@@ -176,7 +178,9 @@ proxies:
   plugin-opts:
     mode: websocket
     tls: true
+    host: id46.chiioi.me
     path: /id
+
 
 - name: "S._.S-US-RP-SleepyLoMei"
   type: ss
@@ -350,7 +354,9 @@ proxy-groups:
   type: select
   proxies:
     - "S._.S-MO-DR-MacauChinaHahaha"
-    - "S._.S-IN-DR"
+    - "S._.S-IN-DR-6First"
+    - "S._.S-IN-DR6-6First"
+    - "S._.S-IN-4RP6-6First"
     - "S._.S-US-RP-SleepyLoMei"
     - "S._.S-US-DR-SleepyLoMei"
     - "S._.S-AU-DR-MickeyMouse"
