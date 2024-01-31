@@ -165,7 +165,7 @@ proxies:
   plugin-opts:
     mode: websocket
     tls: true
-    path: /idv6
+    path: /id
 
 - name: "S._.S-IN-4RP6"
   type: ss
@@ -178,7 +178,7 @@ proxies:
   plugin-opts:
     mode: websocket
     tls: true
-    path: /id46
+    path: /id
 
 
 - name: "S._.S-US-RP-SleepyLoMei"
