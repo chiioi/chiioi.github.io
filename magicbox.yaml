@@ -152,6 +152,32 @@ proxies:
     tls: true
     path: /id
 
+- name: "S._.S-IN-DR6"
+  type: ss
+  server: idv6.chiioi.me
+  port: 443
+  cipher: aes-128-gcm
+  password: "S1eepy_Idrrry"
+  # udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    path: /idv6
+
+- name: "S._.S-IN-4RP6"
+  type: ss
+  server: id46.chiioi.me
+  port: 443
+  cipher: aes-128-gcm
+  password: "S1eepy_Idrrry"
+  # udp: true
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    tls: true
+    path: /id46
+
 - name: "S._.S-US-RP-SleepyLoMei"
   type: ss
   server: us.chiioi.eu.org
