@@ -144,7 +144,7 @@ proxies:
   server: id.chiioi.me
   port: 443
   cipher: aes-128-gcm
-  password: "S1eegy_Idrrry"
+  password: "S1eepy_Idrrry"
   # udp: true
   plugin: v2ray-plugin
   plugin-opts:
