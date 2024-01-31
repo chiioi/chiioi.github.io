@@ -115,7 +115,7 @@ proxies:
   server: mo.chiioi.me
   port: 443
   cipher: xchacha20-ietf-poly1305
-  password: "Sleepy_M0rry"
+  password: "Sleepy_M0rrry"
   # udp: true
   plugin: v2ray-plugin
   plugin-opts:
